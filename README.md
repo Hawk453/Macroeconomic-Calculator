@@ -3,7 +3,7 @@
 To claculate the Macroeconomic aggregates
 
 ### The aggregates:
-1. GDP at MP
+1. GDP at MP <br>
 Using Income Method GDPMP is measured by following type: 
 
 ```
