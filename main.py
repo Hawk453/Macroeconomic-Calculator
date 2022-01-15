@@ -7,5 +7,6 @@ obj = macro(counter)
 
 
 nti = 500
-y =  obj.GDPatFC(NetIndirectTax=nti)
+#y =  obj.GDPatFC(NetIndirectTax=nti)
+y = obj.NDPatMP()
 print(y)
