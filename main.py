@@ -1,12 +1,17 @@
-from typing import Counter
 from macro import macro 
 
-counter = int(input("Enter 1 for GDP at MP using income method and 2 for GDP at MP using Expenditure Method : "))
+def main():
 
-obj = macro(counter)
+    counter = int(input("Enter 1 for GDP at MP using income method and 2 for GDP at MP using Expenditure Method : "))
+
+    obj = macro(counter)
 
 
-nti = 500
-#y =  obj.GDPatFC(NetIndirectTax=nti)
-y = obj.NDPatMP()
-print(y)
+    print("Please enter intial data for the respective GDP calculation: ")
+    
+    gdp_mp = obj.GDPatMP()       
+
+    print("The GDP at MP is : ", gdp_mp) 
+
+if __name__ == "__main__" :
+    main()
